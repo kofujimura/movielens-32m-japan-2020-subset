@@ -1,0 +1,19 @@
+test_distinct_movies_not_rating_rows (test_pipeline.PipelineTests.test_distinct_movies_not_rating_rows) ... ok
+test_failed_fetch_is_not_unmatched_and_stops_extraction (test_pipeline.PipelineTests.test_failed_fetch_is_not_unmatched_and_stops_extraction) ... batch failed 0: network unavailable
+metadata 1/1 cached=False
+ok
+test_keeps_all_eligible_history_and_sample_std_missing (test_pipeline.PipelineTests.test_keeps_all_eligible_history_and_sample_std_missing) ... ok
+test_metadata_country_sets_conflicts_missing_and_non_japan (test_pipeline.PipelineTests.test_metadata_country_sets_conflicts_missing_and_non_japan) ... metadata 6/6 cached=False
+{'jp_confirmed': 1, 'other_country': 1, 'country_missing': 1, 'unmatched': 2, 'ambiguous': 1}
+ok
+test_modified_cache_is_rejected (test_pipeline.PipelineTests.test_modified_cache_is_rejected) ... ok
+test_offline_never_requests_missing_response (test_pipeline.PipelineTests.test_offline_never_requests_missing_response) ... batch failed 0: Missing offline cache: 264e42f77dac093699562ca13952bd6160cf57775e93deecb68cb732e73c1637
+metadata 1/1 cached=False
+ok
+test_original_duplicates_are_rejected (test_pipeline.PipelineTests.test_original_duplicates_are_rejected) ... ok
+test_suffix_year_and_imdb_zero_padding (test_pipeline.PipelineTests.test_suffix_year_and_imdb_zero_padding) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.016s
+
+OK

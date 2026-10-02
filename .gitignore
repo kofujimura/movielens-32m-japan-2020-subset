@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.part
+*.tmp
+
+# Original archive, extracted source, and downloaded documentation stay local.
+/work/movielens32m/raw/
+# Preserve original HTTP receipts locally; public receipts omit cookies and IPs.
+/work/movielens32m/private_http_metadata/
+
+# Publish structured audit evidence, not local command history or intermediates.
+/work/movielens32m/logs/*
+!/work/movielens32m/logs/*.json
+!/work/movielens32m/logs/*.csv
+!/work/movielens32m/logs/unit_tests.txt
+/work/movielens32m/logs/target_ratings.csv

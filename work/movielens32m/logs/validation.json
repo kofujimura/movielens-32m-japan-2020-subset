@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "completed_at_utc": "2026-10-02T05:42:02Z",
+  "checks": [
+    {
+      "check": "primary_keys_unique",
+      "passed": true
+    },
+    {
+      "check": "reference_integrity_exact_no_unused_rows",
+      "passed": true
+    },
+    {
+      "check": "all_users_at_least_5_distinct_target_movies",
+      "passed": true
+    },
+    {
+      "check": "year_and_country_criteria",
+      "passed": true
+    },
+    {
+      "check": "rating_domain",
+      "passed": true
+    },
+    {
+      "check": "final_user_movie_unique",
+      "passed": true
+    },
+    {
+      "check": "utc_conversion_and_source_bounds",
+      "passed": true
+    },
+    {
+      "check": "metadata_matches_evidence",
+      "passed": true
+    },
+    {
+      "check": "user_count_sum",
+      "passed": true
+    },
+    {
+      "check": "movie_count_sum",
+      "passed": true
+    },
+    {
+      "check": "all_aggregates_independently_recomputed_ddof1",
+      "passed": true
+    },
+    {
+      "check": "stable_sort_order",
+      "passed": true
+    },
+    {
+      "check": "independent_source_count",
+      "passed": true
+    },
+    {
+      "check": "eligible_user_set_exact_from_original",
+      "passed": true
+    },
+    {
+      "check": "every_final_rating_exact_original_and_all_eligible_rows_retained",
+      "passed": true
+    },
+    {
+      "check": "frozen_response_cache_rebuilds_identical_metadata",
+      "passed": true
+    },
+    {
+      "check": "frozen_cache_replay_sha256_ratings.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_cache_replay_sha256_movies.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_cache_replay_sha256_users.csv",
+      "passed": true
+    }
+  ],
+  "csv_sha256": {
+    "ratings.csv": "6a8e00df9eda66cb332943cffb0439e9f7aebcf6c710c9b94c37f7cbf703c905",
+    "movies.csv": "f4373504226bc661d2956677953a82f7966e2a0b39fda879dd592c4b6c11dfe7",
+    "users.csv": "3c7094046b836a3ae584738a2346c50b7668e535c18aa8319537b6c7c28e84b1"
+  }
+}

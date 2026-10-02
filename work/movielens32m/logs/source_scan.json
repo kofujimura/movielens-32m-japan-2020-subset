@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-02T05:34:36Z",
+  "ratings": 32000204,
+  "users": 200948,
+  "timestamp_min": 789652004,
+  "timestamp_max": 1697164147,
+  "rated_at_utc_min": "1995-01-09T11:46:44Z",
+  "rated_at_utc_max": "2023-10-13T02:29:07Z",
+  "ratings_sha256": "91159850e41ee59c86231165a688709647e2726cab2e7ba9faf04001bd5261ee",
+  "target_ratings_sha256": "b5d1c69af621d59d9bbad10a0ba9e44f614d35c77d9f851d37be91cbe28e4e5e",
+  "metadata_sha256": "ecec9d70e4871d452072289ab36243d431910ca07c4aabd6beaf40576c096314",
+  "checks": [
+    "all_source_ids_valid",
+    "all_source_ratings_valid",
+    "all_source_pairs_unique_and_sorted"
+  ]
+}
