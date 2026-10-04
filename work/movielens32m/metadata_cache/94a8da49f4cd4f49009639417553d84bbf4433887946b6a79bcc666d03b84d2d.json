@@ -1,0 +1,613 @@
+{
+  "head" : {
+    "vars" : [ "imdbId", "item", "country", "titleJa" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64390886"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "WAR ウォー!!"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7430722"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112713782"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "あさがおと加瀬さん。"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7456468"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56365946"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "2バッドガイズ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7448180"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56416573"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "シュガーベイビー"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7456534"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56561552"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "クインシーのすべて"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7440432"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60852120"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ウルフズ・コール"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7458762"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q142"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61037254"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ブラックシープ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7440094"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62083690"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ロー・タイド"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7434324"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41556020"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ブレードランナー ブラックアウト2022"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7428594"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41556020"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ブレードランナー ブラックアウト2022"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7428594"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42370860"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "恥知らずの鉄拳"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7431894"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q148"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43184957"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ANNA/アナ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7456310"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q142"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43184957"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ANNA/アナ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7456310"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q44353698"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ニンジャバットマン"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7451284"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q44353698"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ニンジャバットマン"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7451284"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51533554"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ゲームチェンジャー：スポーツ栄養学の真実"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7455754"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55624938"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "サイバー・ゴースト・セキュリティ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7453418"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q408"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7444400"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39047231"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7452910"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42402580"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7441032"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42531023"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7436642"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42956323"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7431594"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43302283"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7439064"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47400775"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7439064"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47400775"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7429708"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48537570"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q794"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7428820"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48796167"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7445510"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55698496"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7460806"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56278697"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7459182"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56847806"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7458798"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60851826"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q142"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7446332"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q60891409"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7455076"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q62118751"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7454396"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65246803"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7428476"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q73717016"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7442044"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q101627010"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7439748"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111463865"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7445772"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q112079278"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7441028"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124045089"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7429362"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q129256457"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt7444808"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q140009082"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36"
+      }
+    } ]
+  }
+}

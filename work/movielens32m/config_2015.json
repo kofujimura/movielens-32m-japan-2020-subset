@@ -1,0 +1,20 @@
+{
+  "dataset": "ml-32m",
+  "min_movie_year": 2015,
+  "year_source": "movielens_title_suffix",
+  "country_source": "wikidata_P495",
+  "country_qid": "Q17",
+  "include_coproductions": true,
+  "include_animation": true,
+  "min_target_movies_per_user": 5,
+  "min_ratings_per_movie": null,
+  "seed": 42,
+  "batch_size": 50,
+  "request_pause_seconds": 1,
+  "timeout_seconds": 60,
+  "max_attempts": 5,
+  "user_agent": "MovieLens32MClassroomSubset/1.0 (local academic data preparation; Python urllib)",
+  "expected_movies": 87585,
+  "expected_ratings": 32000204,
+  "expected_users": 200948
+}

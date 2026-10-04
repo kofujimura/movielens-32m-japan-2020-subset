@@ -1,0 +1,263 @@
+{
+  "created_at_utc": "2026-10-04T13:09:18Z",
+  "candidates": {
+    "movies_total": 87585,
+    "year_missing": 617,
+    "candidates": 23766,
+    "candidate_missing_imdb": 0
+  },
+  "metadata_status": {
+    "other_country": 18022,
+    "unmatched": 4947,
+    "country_missing": 160,
+    "jp_confirmed": 630,
+    "ambiguous": 7
+  },
+  "extraction": {
+    "jp_confirmed": 630,
+    "target_ratings": 39679,
+    "target_users": 17210,
+    "target_movies_with_ratings": 626,
+    "final_movies": 601,
+    "final_users": 1771,
+    "final_ratings": 16080,
+    "targets_without_final_ratings": 29,
+    "sensitivity": [
+      {
+        "min_target_movies_per_user": 3,
+        "users": 3930,
+        "movies": 617,
+        "ratings": 23338
+      },
+      {
+        "min_target_movies_per_user": 5,
+        "users": 1771,
+        "movies": 601,
+        "ratings": 16080
+      },
+      {
+        "min_target_movies_per_user": 10,
+        "users": 494,
+        "movies": 575,
+        "ratings": 8050
+      }
+    ]
+  },
+  "file_sizes_bytes": {
+    "ratings.csv": 795052,
+    "movies.csv": 108522,
+    "users.csv": 142002
+  },
+  "csv_total_bytes": 1045576,
+  "missingness": {
+    "ratings.csv": {
+      "userId": {
+        "missing": 0,
+        "total": 16080,
+        "rate": 0.0
+      },
+      "movieId": {
+        "missing": 0,
+        "total": 16080,
+        "rate": 0.0
+      },
+      "rating": {
+        "missing": 0,
+        "total": 16080,
+        "rate": 0.0
+      },
+      "timestamp": {
+        "missing": 0,
+        "total": 16080,
+        "rate": 0.0
+      },
+      "rated_at_utc": {
+        "missing": 0,
+        "total": 16080,
+        "rate": 0.0
+      }
+    },
+    "movies.csv": {
+      "movieId": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "title": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "title_ja": {
+        "missing": 9,
+        "total": 601,
+        "rate": 0.014975041597337771
+      },
+      "movie_year": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "genres": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "imdb_id": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "wikidata_qid": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "country_qids": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "is_coproduction": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "metadata_status": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "metadata_retrieved_at_utc": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "n_ratings_subset": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "mean_rating_subset": {
+        "missing": 0,
+        "total": 601,
+        "rate": 0.0
+      },
+      "std_rating_subset": {
+        "missing": 166,
+        "total": 601,
+        "rate": 0.2762063227953411
+      }
+    },
+    "users.csv": {
+      "userId": {
+        "missing": 0,
+        "total": 1771,
+        "rate": 0.0
+      },
+      "n_target_movies": {
+        "missing": 0,
+        "total": 1771,
+        "rate": 0.0
+      },
+      "mean_rating_subset": {
+        "missing": 0,
+        "total": 1771,
+        "rate": 0.0
+      },
+      "std_rating_subset": {
+        "missing": 0,
+        "total": 1771,
+        "rate": 0.0
+      },
+      "first_rating_at_utc": {
+        "missing": 0,
+        "total": 1771,
+        "rate": 0.0
+      },
+      "last_rating_at_utc": {
+        "missing": 0,
+        "total": 1771,
+        "rate": 0.0
+      }
+    }
+  },
+  "density": 0.015107514203224252,
+  "graph": {
+    "components": 1,
+    "largest": {
+      "users": 1771,
+      "movies": 601
+    }
+  },
+  "user_rating_counts": {
+    "min": 5,
+    "median": 7,
+    "max": 174
+  },
+  "movie_rating_counts": {
+    "min": 1,
+    "median": 3,
+    "max": 1314
+  },
+  "rating_distribution": {
+    "0.5": 415,
+    "1.0": 338,
+    "1.5": 344,
+    "2.0": 811,
+    "2.5": 1189,
+    "3.0": 2600,
+    "3.5": 3465,
+    "4.0": 3700,
+    "4.5": 1807,
+    "5.0": 1411
+  },
+  "year_counts": {
+    "2015": 73,
+    "2016": 86,
+    "2017": 94,
+    "2018": 81,
+    "2019": 81,
+    "2020": 61,
+    "2021": 62,
+    "2022": 48,
+    "2023": 15
+  },
+  "genre_counts": {
+    "(no genres listed)": 16,
+    "Action": 144,
+    "Adventure": 76,
+    "Animation": 205,
+    "Children": 27,
+    "Comedy": 130,
+    "Crime": 33,
+    "Documentary": 17,
+    "Drama": 284,
+    "Fantasy": 104,
+    "Horror": 40,
+    "Mystery": 61,
+    "Romance": 84,
+    "Sci-Fi": 73,
+    "Thriller": 47,
+    "War": 13,
+    "Western": 1
+  },
+  "animation_movies": 205,
+  "coproduction_movies": 66,
+  "item_pair_overlap": {
+    "total_pairs": 180300,
+    "zero_overlap": 144367,
+    "at_least": {
+      "1": 35933,
+      "2": 12436,
+      "3": 7339,
+      "5": 3965,
+      "10": 1680,
+      "20": 715
+    }
+  },
+  "metadata_retrieval_range_utc": [
+    "2026-10-02T05:26:32Z",
+    "2026-10-03T21:37:41Z"
+  ]
+}

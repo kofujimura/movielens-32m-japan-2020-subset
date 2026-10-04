@@ -1,0 +1,687 @@
+{
+  "head" : {
+    "vars" : [ "imdbId", "item", "country", "titleJa" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q61951944"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "A.I.ライジング"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5215088"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q403"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96741608"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "フラワーショップ・ミステリー ～血塗られた花～"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5211694"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96741608"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "フラワーショップ・ミステリー ～血塗られた花～"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5211694"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16255311"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "X: 混ざり合う過去と現在"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207116"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16514509"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "パンフィーロフの28人の防衛隊"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207204"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18653545"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ネコのお葬式"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5218784"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q884"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22972803"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "哭声/コクソン"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5215952"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q884"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23045373"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "洞窟探検ダイビング"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5210376"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23833608"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "アクエリアス"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5221584"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q155"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24342065"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "キックボクサー ザ・リベンジ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5208950"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24596951"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ジミー・カーの怪しいビジネス"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5222724"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24685990"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "\"がん\"を恐れず生きる"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5212792"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25136234"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ワンダーストラック"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5208216"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27644140"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "オアシス：スーパーソニック"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5213534"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28735806"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ホステージ 戦慄のテロ計画"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207262"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q230"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28735806"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ホステージ 戦慄のテロ計画"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207262"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28735806"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ホステージ 戦慄のテロ計画"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207262"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28840385"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "モンスター・ホテル クルーズ船の恋は危険がいっぱい?!"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5220122"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42802162"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "オペレーション・フィナーレ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5208252"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q46995370"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ジェシカ・ダーリンのリスト"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5213744"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47525403"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "雨に願いを"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5213870"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q50418223"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "デジモンアドベンチャー　ｔｒｉ．　第２章「決意」"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5216534"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51756469"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "シャドウ・リベンジ"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5206770"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55282404"
+      },
+      "titleJa" : {
+        "xml:lang" : "ja",
+        "type" : "literal",
+        "value" : "ロージー 檻の中の情事"
+      },
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5216022"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5214394"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20899745"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5217644"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21293842"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5219972"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21646247"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5222646"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24514712"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5211044"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24660146"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5212042"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25402703"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5215486"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26864875"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5213016"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26899614"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207320"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27981615"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5207166"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28753463"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q403"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5210380"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q52161545"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5221894"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56084826"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5212090"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q57305201"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5210324"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q90876971"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5210048"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104836531"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5211642"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117476842"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5220430"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q128196393"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5209072"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130394938"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q408"
+      }
+    }, {
+      "imdbId" : {
+        "type" : "literal",
+        "value" : "tt5219958"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134631479"
+      },
+      "country" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      }
+    } ]
+  }
+}

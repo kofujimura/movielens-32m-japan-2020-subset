@@ -122,6 +122,53 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Cache mismatch'):
             p.fetch('https://example.com', path)
 
+    def test_2015_boundary_without_adding_upper_year(self):
+        years = [2014, 2015, 2019, 2020, 2024]
+        movies = [{'movieId': str(i), 'title': f'Film ({year})', 'genres': 'Drama'} for i, year in enumerate(years, 1)]
+        links = [{'movieId': str(i), 'imdbId': str(i), 'tmdbId': ''} for i in range(1, 6)]
+        p.write_csv(p.RAW / 'ml-32m/movies.csv', ['movieId', 'title', 'genres'], movies)
+        p.write_csv(p.RAW / 'ml-32m/links.csv', ['movieId', 'imdbId', 'tmdbId'], links)
+        with patch.dict(p.CFG, expected_movies=5, min_movie_year=2015):
+            self.assertEqual([r['movie_year'] for r in p.candidates()], [2015, 2019, 2020, 2024])
+
+    def test_profile_paths_are_isolated(self):
+        original = dict(p.CFG)
+        p.save_json(p.WORK / 'config.json', original)
+        p.save_json(p.WORK / 'config_2015.json', {**original, 'min_movie_year': 2015})
+        with patch.object(p, 'CFG', original), patch.object(p, 'CONFIG_PATH', p.WORK / 'config.json'):
+            p.configure(2015)
+            self.assertEqual(p.LOG.name, 'logs_2015')
+            self.assertEqual(p.OUT.name, 'movielens_jp_2015_min5')
+            self.assertEqual(p.CFG['min_movie_year'], 2015)
+            p.configure(2020)
+            self.assertEqual(p.LOG.name, 'logs')
+            self.assertEqual(p.OUT.name, 'movielens_jp_2020_min5')
+            self.assertEqual(p.CFG, original)
+
+    def test_2015_plan_reuses_successful_no_match_and_is_stable(self):
+        old_ids, new_id = ['tt0000002', 'tt0000003'], 'tt0000001'
+        query = p.make_query(old_ids)
+        key = p.hashlib.sha256(query.encode()).hexdigest()
+        (p.CACHE / (key + '.rq')).write_text(query)
+        response = p.CACHE / (key + '.json')
+        p.save_json(response, {'head': {'vars': ['imdbId', 'item', 'country', 'titleJa']}, 'results': {'bindings': []}})
+        p.save_json(response.with_suffix('.json.http.json'), {'success': True, 'status': 200, 'sha256': p.digest(response)})
+        with patch.dict(p.CFG, min_movie_year=2015):
+            batches = p.metadata_batches([new_id, *old_ids])
+            self.assertEqual(batches, [old_ids, [new_id]])
+            self.assertEqual(p.read_json(p.LOG / 'metadata_plan.json')['historical_ids_reused'], 2)
+            self.assertEqual(p.metadata_batches([new_id, *old_ids]), batches)
+            with self.assertRaisesRegex(ValueError, 'candidate mismatch'):
+                p.metadata_batches([*old_ids])
+
+    def test_overlap_counts_include_zero_and_distinct_users(self):
+        rows = [{'userId': str(u), 'movieId': str(m)} for u, mids in [(1, [1, 2]), (2, [1, 2]), (3, [3])] for m in mids]
+        result = p.overlap_stats(rows)
+        self.assertEqual(result['total_pairs'], 3)
+        self.assertEqual(result['zero_overlap'], 2)
+        self.assertEqual(result['at_least']['2'], 1)
+        self.assertEqual(result['at_least']['3'], 0)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

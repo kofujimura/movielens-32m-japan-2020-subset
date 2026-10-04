@@ -1,0 +1,14 @@
+{
+  "url": "https://query.wikidata.org/sparql?query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX+wdt%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT+%3FimdbId+%3Fitem+%3Fcountry+%3FtitleJa+WHERE+%7B%0A++VALUES+%3FimdbId+%7B+%22tt6927152%22+%22tt6927316%22+%22tt6927492%22+%22tt6927880%22+%22tt6928060%22+%22tt6929304%22+%22tt6929642%22+%22tt6931170%22+%22tt6931414%22+%22tt6932742%22+%22tt6932818%22+%22tt6933338%22+%22tt6933454%22+%22tt6937070%22+%22tt6937368%22+%22tt6937878%22+%22tt6938828%22+%22tt6939026%22+%22tt6939372%22+%22tt6941872%22+%22tt6941998%22+%22tt6942194%22+%22tt6942252%22+%22tt6943854%22+%22tt6944936%22+%22tt6945882%22+%22tt6945932%22+%22tt6945978%22+%22tt6946580%22+%22tt6947294%22+%22tt6947800%22+%22tt6948128%22+%22tt6948326%22+%22tt6948354%22+%22tt6948600%22+%22tt6949398%22+%22tt6949868%22+%22tt6951594%22+%22tt6951892%22+%22tt6952604%22+%22tt6952960%22+%22tt6953076%22+%22tt6954136%22+%22tt6955298%22+%22tt6955932%22+%22tt6956798%22+%22tt6957966%22+%22tt6958014%22+%22tt6958022%22+%22tt6958030%22+%7D%0A++%3Fitem+wdt%3AP345+%3FimdbId+.%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP495+%3Fcountry+.+%7D%0A++OPTIONAL+%7B+%3Fitem+rdfs%3Alabel+%3FtitleJa+.+FILTER%28LANG%28%3FtitleJa%29+%3D+%22ja%22%29+%7D%0A%7D%0A&format=json",
+  "retrieved_at_utc": "2026-10-03T21:33:14Z",
+  "success": true,
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 21:33:15 GMT",
+    "content-type": "application/sparql-results+json;charset=utf-8",
+    "cache-control": "public, max-age=300",
+    "content-encoding": "gzip"
+  },
+  "sha256": "82cad5e40fc39b795ca0d91faf72cebba2949f03042b4eaf36a07eac7a532a42",
+  "bytes": 16683
+}

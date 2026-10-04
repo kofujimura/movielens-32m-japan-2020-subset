@@ -1,0 +1,9 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?imdbId ?item ?country ?titleJa WHERE {
+  VALUES ?imdbId { "tt3481338" "tt3481634" "tt3482000" "tt3482062" "tt3483612" "tt3483708" "tt3484312" "tt3485800" "tt3486080" "tt3486210" "tt3486542" "tt3486626" "tt3487278" "tt3487610" "tt3487994" "tt3488184" "tt3488328" "tt3488710" "tt3491962" "tt3492838" "tt3494610" "tt3495026" "tt3495030" "tt3495184" "tt3496372" "tt3496526" "tt3496790" "tt3496868" "tt3498590" "tt3498820" "tt3499096" "tt3499176" "tt3499358" "tt3499458" "tt3500068" "tt3500544" "tt3501112" "tt3501416" "tt3501492" "tt3501590" "tt3501632" "tt3502786" "tt3503068" "tt3503406" "tt3503454" "tt3503460" "tt3503840" "tt3503924" "tt3504604" "tt3505094" }
+  ?item wdt:P345 ?imdbId .
+  OPTIONAL { ?item wdt:P495 ?country . }
+  OPTIONAL { ?item rdfs:label ?titleJa . FILTER(LANG(?titleJa) = "ja") }
+}

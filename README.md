@@ -1,31 +1,44 @@
-# MovieLens 32M Japan 2020+ subset
+# MovieLens 32M Japan subsets
 
-MovieLens作品年2020年以降・日本製作国を含む作品の、小規模な評価履歴データセットです。
-固定版MovieLens 32Mと、2026年10月2日に取得したWikidataの構造化データから作成しました。
+MovieLens作品年2020年以降／2015年以降・日本製作国を含む作品の評価履歴データセットです。
+固定版MovieLens 32Mを使用します。2020年版のWikidata照合は2026年10月2日に取得し、
+2015年版ではそのキャッシュを固定したまま、2015〜2019年の候補を10月4日（日本時間）に追加照合しました。
 
 ## 抽出条件と結果
 
-- MovieLensの題名末尾の作品年が2020年以上。
+- MovieLensの題名末尾の作品年が、選んだ版の下限（2020年または2015年）以上。
 - IMDb IDの完全一致で一意に対応するWikidata項目のP495に日本（Q17）を含む。
 - 合作・アニメ・短編を含む。作品側の最低評価数や年上限は追加しない。
 - 対象作品のうち異なる5作品以上を評価したユーザーについて、対象内の全評価を残す。
 - 元の匿名userId、movieId、rating、timestampを保持する。
 
-| 指標 | 結果 |
-| --- | ---: |
-| 日本を含む確認済み対象作品 | 196 |
-| 正式CSVの作品 | 159 |
-| 正式CSVのユーザー | 176 |
-| 正式CSVの評価 | 1,177 |
-| 3つのCSVの合計サイズ | 101,261 bytes |
-| 評価行列の密度 | 4.2060% |
+| 指標 | 2020年以降 | 2015年以降 |
+| --- | ---: | ---: |
+| 日本を含む確認済み対象作品 | 196 | 630 |
+| 正式CSVの作品 | 159 | 601 |
+| 正式CSVのユーザー | 176 | 1,771 |
+| 正式CSVの評価 | 1,177 | 16,080 |
+| 3つのCSVの合計サイズ | 101,261 bytes | 1,045,576 bytes |
+| 評価行列の密度 | 4.2060% | 1.5108% |
+| 共通評価者5人以上の作品ペア | 135 | 3,965 |
 
 Wikidataで日本を含む合作とされる『ブレット・トレイン』『NOPE/ノープ』等も含みます。
 作品年は日本公開年ではありません。ユーザーは日本人・日本在住者の標本ではありません。
-未照合・国欠損・競合は1,817作品あり、全邦画を網羅していません。
-正式条件を緩めず、最低3・5・10作品の感度分析をレポートに併記しています。
+未照合・国欠損・競合は2020年版で1,817作品、2015年版で5,114作品あり、全邦画を網羅していません。
+2015年版で変更した選定条件は作品年の下限のみです。ユーザーの5作品条件は対象を広げて再判定し、旧版の全評価も保持しています。
+最低3・5・10作品の感度分析をそれぞれのレポートに併記しています。
 
 ## データと根拠
+
+### 2015年版
+
+- [ratings.csv](outputs/movielens_jp_2015_min5/ratings.csv) / [movies.csv](outputs/movielens_jp_2015_min5/movies.csv) / [users.csv](outputs/movielens_jp_2015_min5/users.csv)
+- [集計・欠損率・検証レポート](outputs/movielens_jp_2015_min5/report.md) / [2020年版との比較](outputs/movielens_jp_2015_min5/comparison_2020.md)
+- [再実行手順](outputs/movielens_jp_2015_min5/README.md) / [データ辞書](outputs/movielens_jp_2015_min5/data_dictionary.md)
+- [manifest](outputs/movielens_jp_2015_min5/manifest.json) / [配布ファイルのSHA-256](outputs/movielens_jp_2015_min5/checksums.sha256)
+- [2015年版の監査表・固定照会計画](work/movielens32m/logs_2015/)
+
+### 2020年版（保持）
 
 - [ratings.csv](outputs/movielens_jp_2020_min5/ratings.csv)
 - [movies.csv](outputs/movielens_jp_2020_min5/movies.csv)
@@ -36,8 +49,10 @@ Wikidataで日本を含む合作とされる『ブレット・トレイン』『
 - [Wikidata固定キャッシュ](work/movielens32m/metadata_cache/) / [候補・照合・検証の監査表](work/movielens32m/logs/)
 - [当初の抽出仕様](movielens_32m_subset_handoff.md)
 
-実データ検証19項目と回帰テスト8件を実施しています。原本との評価行の一致、
+実データ検証は2020年版19項目、2015年版21項目。更新したスクリプトの回帰テストは12件です。原本との評価行の一致、
 5作品条件、参照整合性、UTC変換、固定キャッシュからの主要CSV再生成を確認しています。
+2015年版では、旧版の全評価と候補メタデータの保持も検証しています。
+2020年版の成果物は変更していません。そのmanifest内のコードハッシュは初回公開commit `8b9fb0b` のものです。
 
 ## 再現方法
 
@@ -50,8 +65,11 @@ cd movielens-32m-japan-2020-subset
 # Gitには含めない公式原本を取得し、公式チェックサムを検証する。
 python3 work/movielens32m/scripts/pipeline.py download
 
-# 同梱のWikidataキャッシュを固定して全工程を再実行する。
+# 2020年版を再実行する（既存の出力は再生成される）。
 python3 work/movielens32m/scripts/pipeline.py all --offline --audit-ambiguities
+
+# 2015年版を別の出力先に再実行する。
+python3 work/movielens32m/scripts/pipeline.py all --min-year 2015 --offline --audit-ambiguities
 
 # 回帰テスト
 python3 -m unittest discover -s work/movielens32m/scripts -p 'test_*.py' -v

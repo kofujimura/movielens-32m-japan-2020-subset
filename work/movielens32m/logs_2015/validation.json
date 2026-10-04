@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "completed_at_utc": "2026-10-04T11:39:54Z",
+  "checks": [
+    {
+      "check": "primary_keys_unique",
+      "passed": true
+    },
+    {
+      "check": "reference_integrity_exact_no_unused_rows",
+      "passed": true
+    },
+    {
+      "check": "all_users_at_least_5_distinct_target_movies",
+      "passed": true
+    },
+    {
+      "check": "year_and_country_criteria",
+      "passed": true
+    },
+    {
+      "check": "rating_domain",
+      "passed": true
+    },
+    {
+      "check": "final_user_movie_unique",
+      "passed": true
+    },
+    {
+      "check": "utc_conversion_and_source_bounds",
+      "passed": true
+    },
+    {
+      "check": "metadata_matches_evidence",
+      "passed": true
+    },
+    {
+      "check": "user_count_sum",
+      "passed": true
+    },
+    {
+      "check": "movie_count_sum",
+      "passed": true
+    },
+    {
+      "check": "all_aggregates_independently_recomputed_ddof1",
+      "passed": true
+    },
+    {
+      "check": "stable_sort_order",
+      "passed": true
+    },
+    {
+      "check": "independent_source_count",
+      "passed": true
+    },
+    {
+      "check": "eligible_user_set_exact_from_original",
+      "passed": true
+    },
+    {
+      "check": "every_final_rating_exact_original_and_all_eligible_rows_retained",
+      "passed": true
+    },
+    {
+      "check": "all_2020_final_ratings_preserved_in_2015",
+      "passed": true
+    },
+    {
+      "check": "all_2020_metadata_and_retrieval_timestamps_preserved",
+      "passed": true
+    },
+    {
+      "check": "frozen_response_cache_rebuilds_identical_metadata",
+      "passed": true
+    },
+    {
+      "check": "frozen_cache_replay_sha256_ratings.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_cache_replay_sha256_movies.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_cache_replay_sha256_users.csv",
+      "passed": true
+    }
+  ],
+  "csv_sha256": {
+    "ratings.csv": "a4f4a48bf0d201df995dd374f67409c26fdc917589cb0c2e1a2fb7718aec71e0",
+    "movies.csv": "1e834297c3e9293157b4af61eac414906311111b13fb45e8e913d11d086047fe",
+    "users.csv": "2c41d18c4346429e96a512530020f59d4d1a3ab33e42688a5ca5b609fd0d6d7f"
+  }
+}

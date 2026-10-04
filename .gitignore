@@ -19,3 +19,16 @@ __pycache__/
 !/work/movielens32m/logs/*.csv
 !/work/movielens32m/logs/unit_tests.txt
 /work/movielens32m/logs/target_ratings.csv
+
+/work/movielens32m/logs_2015/*
+!/work/movielens32m/logs_2015/*.json
+!/work/movielens32m/logs_2015/*.csv
+!/work/movielens32m/logs_2015/unit_tests.txt
+/work/movielens32m/logs_2015/target_ratings.csv
+
+# Local exercise solutions and visualizations are not published.
+/outputs/movielens_jp_2015_lift/
+/work/movielens32m/visualization/
+/work/movielens32m/lift_validation/
+/work/movielens32m/scripts/lift_graph.py
+/work/movielens32m/scripts/test_lift_graph.py

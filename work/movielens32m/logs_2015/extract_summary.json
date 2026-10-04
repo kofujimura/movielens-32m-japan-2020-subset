@@ -1,0 +1,30 @@
+{
+  "jp_confirmed": 630,
+  "target_ratings": 39679,
+  "target_users": 17210,
+  "target_movies_with_ratings": 626,
+  "final_movies": 601,
+  "final_users": 1771,
+  "final_ratings": 16080,
+  "targets_without_final_ratings": 29,
+  "sensitivity": [
+    {
+      "min_target_movies_per_user": 3,
+      "users": 3930,
+      "movies": 617,
+      "ratings": 23338
+    },
+    {
+      "min_target_movies_per_user": 5,
+      "users": 1771,
+      "movies": 601,
+      "ratings": 16080
+    },
+    {
+      "min_target_movies_per_user": 10,
+      "users": 494,
+      "movies": 575,
+      "ratings": 8050
+    }
+  ]
+}
